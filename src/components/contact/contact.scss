@@ -1,0 +1,40 @@
+@import '../../assets/variables';
+
+.container__contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.contact__option {
+    background: $color-bg-variant;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    place-items: center;
+    text-align: center;
+    padding: 1.2rem;
+    transition: $transition;
+
+    > svg {
+        font-size: 1.3rem;
+    }
+
+    > h4 {
+        font-size: 1.2rem;
+    }
+
+    > h5 {
+        margin-bottom: 1rem;
+    }
+
+    &:hover {
+        background: transparent;
+        border-color: $color-bg-variant;
+    }
+}
+
+@include media(sm) {
+    .container__contact {
+        grid-template-columns: 1fr;
+    }
+}

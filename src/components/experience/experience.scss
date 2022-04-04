@@ -1,0 +1,69 @@
+@import '../../assets/variables';
+
+.experience__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    > div {
+        background: $color-bg-variant;
+        padding: 3.5rem 8rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        cursor: default;
+        transition: $transition;
+
+        &:hover {
+            background: transparent;
+            border-color: $color-primary-variant;
+        }
+
+        > h3 {
+            font-size: 1.3rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: $color-primary;
+        }
+    }
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+
+    > article {
+        display: flex;
+        gap: 1rem;
+
+        > svg {
+            margin-top: 6px;
+            color: $color-primary;
+        }
+    }
+}
+
+/*============= SMALL ============*/
+@media screen and (max-width: 600px) {
+    .experience__container > div {
+        padding: 2.5rem 1rem;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        padding: 2.5rem 4rem;
+    }
+}
+
+/*============= SUPER-SMALL ============*/
+@media screen and (max-width: 300px) {
+    .experience__content {
+        grid-template-columns: 1fr;
+    }
+}
+
