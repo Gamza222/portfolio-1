@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio-1/static/css/main.5a29ca7f.css",
-    "main.js": "/portfolio-1/static/js/main.a0b851cb.js",
+    "main.js": "/portfolio-1/static/js/main.099fa667.js",
     "static/media/travel1.jpg": "/portfolio-1/static/media/travel1.bc2e4a7830a9ad8bb581.jpg",
     "static/media/me.jpg": "/portfolio-1/static/media/me.9379a23c50a98067bca7.jpg",
     "static/media/я3.jpg": "/portfolio-1/static/media/я3.850cf304a38a00b6f09a.jpg",
     "static/media/travel2.jpg": "/portfolio-1/static/media/travel2.aa22c7fe5e41be24e72e.jpg",
     "static/media/markdown.jpg": "/portfolio-1/static/media/markdown.99ee5c5b1e1f349ec925.jpg",
-    "static/media/dev-site.jpg": "/portfolio-1/static/media/dev-site.4537121f093dddeb9793.jpg",
-    "static/media/quote-machine.jpg": "/portfolio-1/static/media/quote-machine.a591475ce95ffbacb917.jpg",
+    "static/media/meta.jpg": "/portfolio-1/static/media/meta.4179f83b0918fb211ef8.jpg",
+    "static/media/labsdesv-site.jpg": "/portfolio-1/static/media/labsdesv-site.29846a297b3d36548ab5.jpg",
+    "static/media/todo.jpg": "/portfolio-1/static/media/todo.c6bf1261c1e8cd6f728e.jpg",
     "static/media/CV.pdf": "/portfolio-1/static/media/CV.97662a3d243ed27389e4.pdf",
-    "static/media/todo-list.jpg": "/portfolio-1/static/media/todo-list.7e8f965ba68394a7f4e3.jpg",
     "index.html": "/portfolio-1/index.html",
     "main.5a29ca7f.css.map": "/portfolio-1/static/css/main.5a29ca7f.css.map",
-    "main.a0b851cb.js.map": "/portfolio-1/static/js/main.a0b851cb.js.map"
+    "main.099fa667.js.map": "/portfolio-1/static/js/main.099fa667.js.map"
   },
   "entrypoints": [
     "static/css/main.5a29ca7f.css",
-    "static/js/main.a0b851cb.js"
+    "static/js/main.099fa667.js"
   ]
 }
